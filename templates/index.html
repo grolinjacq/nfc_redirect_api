@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block title %}NFC URL Redirection{% endblock %}
+
+{% block content %}
+    <h1>NFC URL Redirection</h1>
+    <form method="POST" action="/">
+        <label for="nfc_id">Enter NFC ID:</label>
+        <input type="text" id="nfc_id" name="nfc_id">
+        <br>
+        <input type="submit" value="Enter">
+    </form>
+    <p>Current database: {{ current_database }}</p>
+{% endblock %}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My App</title>
+    <!-- Other head elements like CSS files... -->
+</head>
+<body>
+    {% with messages = get_flashed_messages() %}
+    {% if messages %}
+        {% for message in messages %}
+            <p>{{ message }}</p>
+        {% endfor %}
+    {% endif %}
+    {% endwith %}
+
+    <!-- Navigation bar -->
+    <nav>
+        {% if current_user.is_authenticated %}
+            <!-- Navigation bar when user is logged in -->
+            <li><a href="{{ url_for('home') }}">Home</a></li>
+            <li><a href="{{ url_for('my_campaigns') }}">My Campaigns</a></li>
+            <li><a href="{{ url_for('my_tags') }}">My Tags</a></li>
+            <li><a href="{{ url_for('my_links') }}">My Links</a></li>
+            <li><a href="{{ url_for('logout') }}">Logout</a></li>
+        {% else %}
+            <!-- Navigation bar when user is logged out -->
+            <li><a href="{{ url_for('register') }}">Register</a></li>
+            <li><a href="{{ url_for('login') }}">Login</a></li>
+        {% endif %}
+    </nav>
+
+    <!-- Page content -->
+    <div>
+        {% block content %}
+        {% endblock %}
+    </div>
+</body>
+</html>
+

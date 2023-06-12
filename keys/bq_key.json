@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "nfc-redirect-project",
+  "private_key_id": "a1e853f7a280a0d598164b6e01e1b2e4ccecedb4",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDDGegXIDS4q+Ot\ngTiDqAtooNOJMt8+Qh7H7tzfJuEIlyTP7VWzJNoSeE0iyFZVEj75NWKaetVlvDp+\n+HNsQmBy8zRRPZeFrjZCt08hQziIo2s2X00fuWG7f8YsSoYQrI6pjZ0vJqSBBoat\n88XFtN4cYh5d5L/i3+1DvFXKyo4t0qd5n0wQ/nO5RIddHhf9IPlLsmHAH4W5dJ+L\n1kcabRKZy8N07El3kt3WlWFL9sxE0fdSHjGu7x6BXDCVS+kMrfMaOj7z5HM678G5\n56hMajZMwY5MA2SBBMmwJ8+sbUb6xuv8NvGj5J8muxQxaGQBghu6m52IfsAyjIEg\nJJFDIU0rAgMBAAECggEAAcdbL9bJ1EMw7LSIZN7j17zboN0XXvRwXmdFmT08AP2L\nxt+FkAAOguuY3G/SJa1oaJI9h2YGSwqnx9+RAdQrF/EysWjr2Dqp4PrV3FpGCizf\nPdwpklf41aJJFr9JMJ66ID6bx8HE7y41jSFzVKWc/spAN5/txe4/tgXiDFrDaBSG\n+pRwh1nd4/Y9pDKjzUYi6J2pT5reZiSh0bJMMKjEN0t+i0nYgzUHLR/QtRMe0fl+\nEs+AaKsYQHXRU2rzWyvIbu9xN0Tstma+vnL5tswFyxWMjeJXNaWGJWezFZg/nn3n\n9z874dYF4dXns5kEEX0ksHtePm6+GQjT2zQLOhZMuQKBgQD8C0NFNUHZZWxsxB87\nWBNjdnwGfn+GH6BAXEp+2jmvWQ6D7/+QRFagp0oCBHmGP8xw/dWCLvSlxbuuvrXx\n3X8S4n3dW0aE8J+jl7+gxmKr7WkehsWNNnZkpHX2cC5tz8hCYfR7LQzl3RPzm4rX\nr5x61VxprnSunShcZWj832VTaQKBgQDGKdeWsZQ5kiCup3FCOYnCEc7qrHJd2vDh\nS1hqpww84VGPu5l5jWg0jOovjdRLVaaaH1aEJ0mOIchx4nbJEth/giAlTtzry0uO\nhNIODD9qMVq72WyAiQKYD9TFnVyIuvGc5cu56lnhMcAtAmKC5FY8J9i0r9e2azh8\n+i+4UsyNcwKBgQDOWQ43IBYMPPwaxCpptH8TJFMAIhqXnVbeunCHEHS/uWKn5BpQ\na5Kcrrlpk25G2f6v1zExBu5mtc8ljp95KAU8WdAAJRVEC5g3ICrUHvdzmMhCJMai\nCR++3+Jv44IvhziGGJpHKifwHSKThBmU4gJzkjC5mQmQV7xOgPwGY4MaWQKBgCaR\nMC9ZAmMuCIRVfFqKPkByHNZZl6yilu0SL/QZ7OzQYYJa3aTlm5lWr6FvthivY8xt\nOvZfexZZhtx7WekKbO5sEfuQ3LhbiaoEOamYQqNVVbZnu5FMmR+lPSD03nSSBcIm\niz702GdWunNIGoolDI+KpceMzavoNEdGnhD+tGb3AoGAf297eMG0rfXkeTHJPHVB\nlhcF7/4hjVyEH6LzyrTdZ8l+cg7ZNyYGlFazn3wStmXf07BDC7vYhQ3zAkA7X85N\n/mmqQqLCeQHNLkWyY3g+Cz8fduqgCdgZ9E22b9reKmebk0JfLOxMhFdXOlUpaByd\nfnnsQr4tVN4A8LSf7jNR9jg=\n-----END PRIVATE KEY-----\n",
+  "client_email": "nfc-redirect-user@nfc-redirect-project.iam.gserviceaccount.com",
+  "client_id": "114238586476361722950",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/nfc-redirect-user%40nfc-redirect-project.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
