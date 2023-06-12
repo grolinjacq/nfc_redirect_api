@@ -1,5 +1,4 @@
 import os
-from google.cloud import secretmanager
 
 # Get the absolute path to the current directory
 current_dir = os.path.dirname(os.path.abspath(__file__))
@@ -18,9 +17,6 @@ class Config:
     
     SQLALCHEMY_DATABASE_URI = uri
     SQLALCHEMY_TRACK_MODIFICATIONS = False
-
-    # BigQuery configuration
-    BIGQUERY_PROJECT_ID = 'nfc-redirect-project'
 
     # Other configuration options for your Flask application
     # ...
