@@ -51,3 +51,4 @@ docs/_build/
 
 # Other
 greenlet.h
+.DS_Store
